@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\LinkController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\File;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +13,6 @@ use Illuminate\Support\Facades\File;
 |
 */
 
-// Route::get('/', [LinkController::class, 'HomePage']);
-
-// Route::get('/', function () {
-//     $path = base_path('path/to/your/custom/directory/myview.html');
-//     return response()->file($path);
-// });
+Route::get('/', function () {
+    return view('welcome');
+});

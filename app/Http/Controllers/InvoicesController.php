@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Invioce;
-use App\Http\Requests\StoreInvioceRequest;
-use App\Http\Requests\UpdateInvioceRequest;
+use App\Models\Invoices;
+use App\Http\Requests\StoreInvoicesRequest;
+use App\Http\Requests\UpdateInvoicesRequest;
 
-class InvioceController extends Controller
+class InvoicesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -27,7 +27,7 @@ class InvioceController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreInvioceRequest $request)
+    public function store(StoreInvoicesRequest $request)
     {
         //
     }
@@ -35,7 +35,7 @@ class InvioceController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Invioce $invioce)
+    public function show(Invoices $invoices)
     {
         //
     }
@@ -43,7 +43,7 @@ class InvioceController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Invioce $invioce)
+    public function edit(Invoices $invoices)
     {
         //
     }
@@ -51,7 +51,7 @@ class InvioceController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateInvioceRequest $request, Invioce $invioce)
+    public function update(UpdateInvoicesRequest $request, Invoices $invoices)
     {
         //
     }
@@ -59,7 +59,7 @@ class InvioceController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Invioce $invioce)
+    public function destroy(Invoices $invoices)
     {
         //
     }
